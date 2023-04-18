@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script type="text/javascript">
+    const firstNumber = Math.floor(Math.random() * 9 + 1);
+    const secondNumber = Math.floor(Math.random() * 9 + 1);
+    const multiply = firstNumber * secondNumber;
+    const result = Number(prompt(`Сколько будет ${firstNumber} * ${secondNumber} ?`));
+
+    if (result === multiply) {
+        alert('КАпеЦ тЫ уМныЙ БрАтаАан ;-))');
+    } else {
+        alert('Иди учись двоечник :((');
+        alert(`Правильный ответ: ${multiply}`);
+    }
+
+</script>
+</body>
+</html>
